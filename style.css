@@ -11,7 +11,7 @@
 body{
     position: relative;
     min-height: 100vh;
-    background: url(./img/skyblue.jpg);
+    background: rgb(255, 255, 255);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -32,14 +32,14 @@ img{
     border: 5px black;
 }
 .card-header{
-    background: -moz-linear-gradient(45deg, rgba(153, 231, 255, 0.6), rgba(182, 248, 250, 0.69) 100%);
+    background:#0080ff;
     padding: 60px 40px;
     border: 5px black;
 }
 .pic{
     display: inline-block;
     padding: 8px;
-    background: linear-gradient(130deg, #1de6e6, #006884);
+    background: linear-gradient(130deg, black, #006884);
     margin: auto;
     border-radius: 50%;
     background-size: 200% 200%;
@@ -77,7 +77,7 @@ img{
 }
 .desc{
     font-size: 20px;
-    color: #6d9191;
+    color: black;
 }
 .sm{
     display: flex;
@@ -91,19 +91,19 @@ img{
     transition: .3s linear;
 }
 .sm a:hover{
-    color: #6d9191;
+    color: black;
 }
 .contact-btn{
     display: inline-block;
     padding: 12px 50px;
-    border: 2px solid #006884;
+    border: 2px solid black;
     border-radius: 6px;
     margin-top: 16px; 
     transition: .3s linear;
 }
 .contact-btn:hover{
-    background: #006884;
-    color: white;
+    background: black;
+    color: #0080ff;
 }
 .card-footer{
     background: #f2f2f2;
@@ -123,7 +123,7 @@ img{
     margin-top: 15px;
 }
 .study{
-    background: #47bbdb;
+    background: white;
     padding: 60px 10px;
     margin-top: 15px;
 }
@@ -151,7 +151,7 @@ img{
     margin-top: 5px;
 }
 .social-media{
-    background: #47bbdb;
+    background: white;
     margin-top: 10px;
     padding: 30px 10px;
     font-size: 28px;
@@ -163,7 +163,7 @@ img{
 .copyright {
     background: #111;
     font-size: 16px;
-    color: skyblue;
+    color: #0080ff;
     margin: 2px 2px;
     text-align: center;
     padding: 10px;
